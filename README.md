@@ -1,179 +1,225 @@
-# FnMacAssistant
-Welcome to FnMacAssistant! An easy to use assistant that helps you download the latest Fortnite IPA and applies the necessary patches for it to work properly.<br />
+# FnMacAssistant (Русская версия)
+
+Добро пожаловать в FnMacAssistant! Простой в использовании помощник, который помогает скачать последнюю версию Fortnite IPA и применяет необходимые патчи для корректной работы на macOS.
+
 <img width="612" height="540" alt="Screenshot of FnMacAssistant v1.5.0" src="https://github.com/user-attachments/assets/08308966-ddff-44e9-ac24-7590c843fed7" />
 
-<h2>Discord</h2>
-Join the official Fortnite Mac discord here: https://discord.gg/nfEBGJBfHD
+## Discord
+Присоединяйтесь к официальному Discord-серверу Fortnite Mac: https://discord.gg/nfEBGJBfHD
 
-<h2>Support me</h2>
-If you found this program useful and want to support me, consider using my Support a Creator Code in Fortnite!
+## Поддержка разработчика
+Если программа оказалась полезной, рассмотрите возможность использования кода поддержки создателя в Fortnite!
 
 `Isacucho`
 
-You can also support me through buy me a coffee! 
+Вы также можете поддержать разработчика через Buy Me A Coffee!
 <br/><br/>
 <a href="https://www.buymeacoffee.com/Isacucho" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
+## Системные требования:
+- Установленный [Sideloadly](https://sideloadly.io) на вашем Mac
+- macOS 15.1 или новее
+- Mac с чипом серии M (M1/M2/M3/M4). Fortnite для мобильных устройств никогда не будет работать на Intel Mac.
 
-<h2>Requirments:</h2> 
-Have Sideloadly installed on your mac <br/>
-Mac must be on MacOS 15.1 or later <br/>
-A mac with an M series chip. (Fortnite mobile will never work on an Intel Mac)
+## Инструкция по установке:
 
-<h2>Instructions:</h2>
+### Часть 1: Установка
 
-<h3>Part 1: Installation</h3>
-To get Fortnite up and running in your Mac, follow these steps:
-<br />
-1.1. Download and install https://sideloadly.io
+Для запуска Fortnite на вашем Mac следуйте этим шагам:
 
-1.2. Download the newest version of the FnMacAssistant App from [Releases](https://github.com/isacucho/FnMacAssistant/releases) and unzip it. (if you prefer to run it through python, you can use the python version by cloning this repository).
-<br><br>
-1.3. You should now have an app called FnMacAssistant on your downloads folder. Double-click to open it.
- 
-1.4. Select your desired IPA, and click the _Download IPA_ button to download it. <br />
-(To see the differences between the different IPAs, click [here](https://github.com/isacucho/FnMacAssistant#what-is-the-difference-between-the-various-ipas).)
-<br><br>
-1.5. Go to sideloadly and sideload the downloaded IPA (the IPA will be saved to your _Downloads_ folder.
-<br><br>
-1.6. Open the Fortnite app. It should crash after a few seconds. If required, go to Settings > Privacy & Security, scroll down and on Fortnite, click "Open Anyway".
-<br><br>
-1.7. Return to FnMacAssistant and click on the _Patch App_ button.
-<br>
-<h3>Part 2: Download the game files</h3>
+1. **Установите Sideloadly:**
+   - Скачайте и установите https://sideloadly.io
 
-Fortnite is now installed, but that's not all. The game files still need to be downloaded, but the initial download is currently broken when installing on Mac. Because of this, you will have to do one of these two options: Download in the background or import the game files with what we call an archive.
-<h4>2.1: Background download (recommended, but might be harder)</h4>
+2. **Запустите FnMacAssistant:**
+   - Для запуска через Python клонируйте этот репозиторий и следуйте инструкциям ниже
+   - Или скачайте готовое приложение с [Releases](https://github.com/IKostarev/FortniteMac/releases)
 
-To download the game files in the background, follow these steps:
-<br />
-2.1.1. Download the [barebones archive](https://cvws.icloud-content.com/B/AbqQjf4KVuERiFWui3vb5UbTTK9yAZMYuc8MDVc20yE7pYY-Sxck7M31/v39.20%20Barebones.zip?o=AtLs53_7EG8l2qIEQop1Hzulp54jf_hb6x6u9Md3XZNy&v=1&x=3&a=CAog4aL9VT9PzL3PI5C9xW-uvoX6FOaWxI0iPB8DUf6wfB8SbxClrI-ZujMYpbyK7cMzIgEAUgTTTK9yWgQk7M31aieV-witqqTbGUzL2DDTltIRpRicaTvq-9ohyYF8uTi0v23uaghVDo1yJ6N_U3y6HW-vgdGUZWuS4FUBM_KnRaiCPy-XSSSnlkgSaViMGDRg0A&e=1770560593&fl=&r=B7E18054-915F-46E9-97A8-1BE689159968-1&k=XhA0ZJRHf1JNkzB6Y1CtEg&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=136&s=_QRQRdrV3z90ZXiQtZ5NfS8Exsw). It is a ~300MB zip file that contains the files Fortnite needs to be able to download in the background.
+3. **Выберите желаемую версию IPA:**
+   - Нажмите кнопку "Download IPA" для скачивания
+   - Подробности о различиях версий см. в разделе "Различия между IPA версиями"
 
-2.1.2. Open FnMacAssistant, and import the archive using the "Import Archive" button.
+4. **Установите IPA через Sideloadly:**
+   - Откройте Sideloadly и установите скачанный IPA файл
+   - IPA сохранится в папку Downloads
 
-2.1.3. Once the import is done, open Fortnite and wait for the download to start.
+5. **Запустите Fortnite:**
+   - Откройте приложение Fortnite
+   - Оно должно показать логотип Epic Games на несколько секунд, затем закрыться
+   - Если требуется, перейдите в Settings > Privacy & Security и нажмите "Open Anyway"
 
-2.1.4. Once the total download size appears, take note of it and fully close Fortnite (either by quitting with 'Command + Q' or by clicking on the red 'X'.
+6. **Примените патч:**
+   - Вернитесь в FnMacAssistant и нажмите кнопку "Patch App"
 
-2.1.5. To track the download progress, go to finder. Press the keys 'Shift + Command + G', and paste the following path: `~/Library/Containers/Fortnite/Data/`, then press enter.
+### Часть 2: Загрузка игровых файлов
 
-2.1.6. Check the size of the Library folder (select it and press 'Space' or right click > get info). The size of that folder is the total downloaded data. Once it completes the download, that folder will shrink to a few MB's.
+Fortnite установлен, но игровые файлы еще нужно загрузить. Первоначальная загрузка в macOS сломана, поэтому используйте один из двух методов: фоновую загрузку или импорт архива.
 
-2.1.7. Once the folder shrinks, re-open Fortnite. The download bar should now be at 50% and the download should continue from there.
+#### 2.1: Фоновая загрузка (рекомендуется, но сложнее)
 
-2.1.8. After logging in, you might get another download screen. If you do, repeat steps 4-7. After this you should get into the lobby.
+1. **Скачайте barebones архив:**
+   - Скачайте [barebones архив](https://cvws.icloud-content.com/B/AbqQjf4KVuERiFWui3vb5UbTTK9yAZMYuc8MDVc20yE7pYY-Sxck7M31/v39.20%20Barebones.zip) (~300MB)
 
-<h4>2.2: Archive import (Easier, but will have to download the full game files every update).</h4>
+2. **Импортируйте архив:**
+   - Откройте FnMacAssistant и нажмите "Import Archive"
 
-To download the archived game files and import them, follow these steps:
+3. **Запустите Fortnite:**
+   - Откройте Fortnite и дождитесь начала загрузки
 
-2.2.1. Download the latest archive here: [v39.20 archive](https://cvws.icloud-content.com/B/AbmmoP-DbW8yF0y0yz_5xiesLMRuAQK5uEkbEg8n8SFX9umRdSk7gsa9/v39.20%20archive.zip?o=AueBMcarTQSITJgJ5YxkPtId-4bphNbRh_DGjByZ9WeM&v=1&x=3&a=CAogl5i85XQXdrBww7saLV7Zkwcl54zCJx_6hRIyjEE8ks4SbxCwo9GcujMYsLPM8MMzIgEAUgSsLMRuWgQ7gsa9aidtoBHYyV1ck0N44Ot4rPX2o-FSkURNu4hqC4D_I87i7etTe2OT2WZyJ7UEtCGdrdABk2ZXvwtTGFIrumQOmj53Sr8rBe0y4PaJ4coAzmTozA&e=1770567965&fl=&r=48CAA10F-AFD2-41AB-B00F-773C239ED4F6-1&k=4fc_B7PiDlKBom5bVT36lQ&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=136&s=NwQmoCtOteT8a5u-iie8XPnfLUU). Make sure the archive version matches your IPA version. If it doesn't, you'll have to wait until the latest archive is uploaded.
+4. **Отследите прогресс:**
+   - Запомните размер загрузки и полностью закройте Fortnite (Command + Q или красный X)
 
-2.2.2. Open Fortnite at least once before importing the archive. Once you see the download bar, you may close the game.
+5. **Проверьте прогресс в Finder:**
+   - Нажмите Shift + Command + G и вставьте путь: `~/Library/Containers/Fortnite/Data/`
+   - Проверьте размер папки Library (выберите ее и нажмите Space или правой кнопкой > Get Info)
 
-2.2.3. Open FnMacAssistant and click on the "Import Archive" button. Select either Zip or folder depending on how it downloaded and select your archive.
+6. **Дождитесь завершения:**
+   - Когда загрузка завершится, папка сожмется до нескольких МБ
 
-2.2.4. Wait for the progress bar to finish. Once it's done, you can open Fortnite!
+7. **Продолжите загрузку:**
+   - Снова откройте Fortnite - загрузка должна продолжиться с 50%
 
-P.S: If you get another download screen after logging in, you might need to follow steps 4-7 of the background download method.
+8. **Повторите при необходимости:**
+   - После входа может появиться еще один экран загрузки
+   - Если да, повторите шаги 4-7
 
-<h3>Part 3: Download your desired game modes (optional)</h3>
-With the base install, the only game modes included are Battle Royale and Blitz. If you want to play any other game mode (Reload, OG, Creative, LEGO, Rocket Racing, Creative maps, and any future game mode), you will have to download them using the background method. Not using the background method will result in an error. Here's how to install the game mode:
+#### 2.2: Импорт архива (проще, но требует переустановки при каждом обновлении)
 
-3.1. Open Fortnite, and select the game mode you want to download.
+1. **Скачайте архив:**
+   - Скачайте [последний архив](https://cvws.icloud-content.com/B/AbmmoP-DbW8yF0y0yz_5xiesLMRuAQK5uEkbEg8n8SFX9umRdSk7gsa9/v39.20%20archive.zip)
+   - Убедитесь, что версия архива соответствует версии IPA
 
-3.2. Take note of the total download size, and then click download. As soon as the download starts, fully close the game (Command + Q or the red X).
+2. **Запустите Fortnite:**
+   - Откройте Fortnite хотя бы один раз перед импортом
+   - Когда появится полоска загрузки, закройте игру
 
-3.3. To track the download progress, go to finder. Press the keys 'Shift + Command + G', and paste the following path: `~/Library/Containers/Fortnite/Data/`, then press enter. Check the size of the Library folder (select it and press 'Space' or right click > get info). The size of that folder is the total downloaded data. Once it completes the download, that folder will shrink to a few MB's.
+3. **Импортируйте архив:**
+   - В FnMacAssistant нажмите "Import Archive"
+   - Выберите ZIP или папку в зависимости от скачанного файла
 
-3.4. Once the download completes, open Fortnite, go to the downloaded game mode and click 'Download' again. The download will jump to 50% and will successfully complete the download.
+4. **Дождитесь завершения:**
+   - Подождите пока полоска прогресса заполнится
+   - После этого можно запускать Fortnite!
 
-<h2>FAQ</h2>
+**Примечание:** Если после входа появится еще один экран загрузки, следуйте шагам 4-7 из метода фоновой загрузки.
 
-<h3>I'm getting a connection / storage error while downloading the game files! What should I do?</h3>
+### Часть 3: Установка дополнительных игровых режимов (опционально)
 
-There are two solutions for this. You can:
-<br />
-1. Open FnMacAssistant
-2. Click the "Delete App and Data" button
-3. Follow the installation steps to install fortnite and download the game data again.
+В базовой установке доступны только Battle Royale и Blitz. Для других режимов (Reload, OG, Creative, LEGO, Rocket Racing и др.) используйте метод фоновой загрузки:
 
-<br />
-Or, you can also do this:
-<br /><br />
- 1. Open FnMacAssistant<br />
- 2. Click on the button with a folder icon, at the left of the "Import Archive" button.<br />
- 3. If prompted, select your container (it is usually the largest one).<br />
- 4. Go to FortniteGame > PersistentDownloadDir, and locate a file called 'InstallBundleManagerReportCache.json'.<br />
- 5. Delete that .json file, and re-try the game data download.
+1. **Выберите режим:**
+   - Откройте Fortnite и выберите желаемый режим
 
+2. **Начните загрузку:**
+   - Запомните размер загрузки и нажмите Download
+   - Как только загрузка начнется, полностью закройте игру
 
-<h3>How do I update the game?</h3>
-1. Download the updated IPA from your preffered source (FnMacAssistant, the website, etc.)<br />
-2. Install the newest IPA with the same Apple ID you installed the last version. <br />
-3. Open the "Fortnite" app, or enable 'Update Skip' if on the newest version. Make sure you open it before patching. Don't attempt to patch first as it will not work.<br />
-4. If prompted, allow Fortnite to be used for testing purposes through System Settings > Privacy & Security.<br />
-5. Patch the app.<br />
-6. Download the game files through your preferred method.<br />
-<br />
+3. **Отследите прогресс:**
+   - В Finder перейдите по пути: `~/Library/Containers/Fortnite/Data/`
+   - Проверьте размер папки Library
 
-<h3>Error: “Fortnite” cannot be opened because the developer did not intend for it to be run on this Mac.</h3>
+4. **Завершите загрузку:**
+   - Когда папка сожмется, откройте Fortnite
+   - Выберите режим и нажмите Download снова
+   - Загрузка должна продолжиться с 50%
 
+## FAQ - Часто задаваемые вопросы
 
-If you get this message, do the following steps:
-1. delete fortnite.app from your applications folder
-2. Install the Fortnite IPA again using sideloadly
-3. Open Fortnite. You should see the Epic Games logo for a few seconds, then the app will crash.
-4. Go to FnMacAssistant and press the 'Patch App' button.
-5. Open Fortnite again. This time it shouldn't crash!
+### Получаю ошибку подключения/хранения при загрузке игровых файлов! Что делать?
 
-<br />
-<h3>Error: Failed to patch the app: [Errno 1] Operation not permitted</h3>
-If you get this error message, you may need to give the FnMacAssistant additional permitions. 
+Есть два решения:
 
-1. Go to System Settings > Privacy & Security > App Management.
-2. Click on the plus sign.
-3. Add the FnMacAssistant app.
-4. Restart the app and try to patch again.
+**Решение 1:**
+1. Откройте FnMacAssistant
+2. Нажмите "Delete App and Data"
+3. Следуйте шагам установки снова
 
-Doing this should fix your issue and you should successfuly be able to patch Fortnite. 
-<br />
-<h3>Fortnite keeps crashing even after patching</h3>
-This usually means that you're MacOS version is not supported. Please update your mac and try again.
-<br />
-<h3>What is the difference between the various IPAs?</h3>
+**Решение 2:**
+1. Откройте FnMacAssistant
+2. Нажмите кнопку с иконкой папки слева от "Import Archive"
+3. Выберите контейнер (обычно самый большой)
+4. Перейдите в FortniteGame > PersistentDownloadDir
+5. Найдите файл 'InstallBundleManagerReportCache.json'
+6. Удалите этот файл и попробуйте загрузку снова
 
-**Clean IPA** <br />
-The clean IPA (Fortnite-XX.XX_Clean.ipa) is the decrypted IPA as-is, no modifications whatsoever. Useful when trying to debug, but it may cause some issues like black bars.
-<br /><br />
-**Regular IPA** <br />
-The regular IPA (Fortnite-XX.XX.ipa) contains the following tweaks:
-- MacOS Fullscreen Patch
-- Removed device restriction
-- Allows editing files from the Files app
-- Lowered minimum iOS version to iOS 10
-<br />
+### Как обновить игру?
 
-**Tweak IPA**
-<br />
-The tweak IPA (Fortnite-XX.XX+Tweak.ipa) comes bundled with the FnMacTweak made by rt2746. In addition to the tweaks mentioned on the regular IPA, this one also contains:
-- Toggle pointer locking with Left Option key (unlocked by default on game load)
-- Unlocks 120 FPS option (requires 120Hz display for full effect)
-- Unlocks graphic preset selection (Low, Medium, High, Epic; 120 FPS sets to Medium)
-- Custom options menu (press P) for mouse sensitivity adjustments
-- Mouse interaction with mobile UI
-- Use external storage for game data [See The Guide](./USE_EXTERNAL_DRIVE.md) (requires FnMacAssistant v1.5.0+ and FnMacTweak v1.0.3+)
-<br />
+1. Скачайте обновленную IPA (через FnMacAssistant или другой источник)
+2. Установите новую IPA с тем же Apple ID
+3. Откройте Fortnite или включите 'Update Skip' в новой версии
+4. Убедитесь, что открыли игру ПЕРЕД патчингом
+5. Если появится запрос, разрешите тестирование через System Settings > Privacy & Security
+6. Примените патч
+7. Загрузите игровые файлы выбранным методом
 
-You can download the standalone tweak or build it yourself on the project's [Github page](https://github.com/victorwads/FnMacTweak) .
-<br /><br />
+### Ошибка: "Fortnite" cannot be opened because the developer did not intend for it to be run on this Mac.
 
-If you have any questions that are not in here, join the [Fortnite Mac discord server](https://discord.gg/nfEBGJBfHD) and I'll be happy to answer your questions over there!
+Если появляется это сообщение:
+1. Удалите fortnite.app из папки Applications
+2. Переустановите Fortnite IPA через Sideloadly
+3. Откройте Fortnite (должно показать логотип Epic Games на несколько секунд, затем закрыться)
+4. В FnMacAssistant нажмите "Patch App"
+5. Снова откройте Fortnite - на этот раз он не должен падать!
 
+### Ошибка: Failed to patch the app: [Errno 1] Operation not permitted
 
+Эта ошибка означает, что нужно дать дополнительные разрешения FnMacAssistant:
+1. Перейдите в System Settings > Privacy & Security > App Management
+2. Нажмите плюсик
+3. Добавьте приложение FnMacAssistant
+4. Перезапустите приложение и попробуйте патчить снова
 
+### Fortnite продолжает падать после патчинга
 
-<h2>Credits:</h2>
-<br>
-LrdSnow for the help with extracting the IPAs<br>
-Rt-someone for creating FnMacTweak
+Обычно это означает, что версия macOS не поддерживается. Обновите macOS и попробуйте снова.
+
+### Различия между различными IPA версиями
+
+**Clean IPA** (Fortnite-XX.XX_Clean.ipa)
+- Расшифрованный IPA без модификаций
+- Полезен для отладки, но может вызывать проблемы (черные полосы)
+
+**Regular IPA** (Fortnite-XX.XX.ipa)
+Содержит следующие модификации:
+- Патч полноэкранного режима macOS
+- Убрано ограничение устройств
+- Разрешено редактирование файлов через приложение Files
+- Снижена минимальная версия iOS до 10
+
+**Tweak IPA** (Fortnite-XX.XX+Tweak.ipa)
+Поставляется с FnMacTweak от rt2746. Дополнительно к Regular содержит:
+- Переключение блокировки курсора клавишей Left Option (разблокировано по умолчанию)
+- Разблокировка опции 120 FPS (требуется дисплей 120Hz)
+- Разблокировка выбора графических настроек (Low, Medium, High, Epic)
+- Пользовательское меню опций (нажмите P) для настройки чувствительности мыши
+- Взаимодействие мыши с мобильным UI
+- Использование внешнего хранилища для игровых данных (требуется FnMacAssistant v1.5.0+ и FnMacTweak v1.0.3+)
+
+Standalone tweak можно скачать или собрать самостоятельно на [GitHub странице проекта](https://github.com/victorwads/FnMacTweak).
+
+Если у вас есть вопросы, не описанные здесь, присоединяйтесь к [Discord серверу Fortnite Mac](https://discord.gg/nfEBGJBfHD)!
+
+## Запуск программы
+
+### Через Python (рекомендуется для разработки):
+
+```bash
+# Установите зависимости
+brew install python python-tk
+
+# Клонируйте репозиторий
+git clone https://github.com/IKostarev/FortniteMac.git
+cd FortniteMac
+
+# Запустите программу
+./run.sh
+
+# Или в режиме разработки с автоперезагрузкой
+./run.sh --watch
+```
+
+### Через собранное приложение:
+Скачайте последнюю версию с [Releases](https://github.com/IKostarev/FortniteMac/releases) и запустите двойным кликом.
+
+## Благодарности:
+- LrdSnow за помощь с извлечением IPA
+- Rt-someone за создание FnMacTweak
