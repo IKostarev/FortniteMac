@@ -4,17 +4,7 @@
 
 <img width="612" height="540" alt="Screenshot of FnMacAssistant v1.5.0" src="https://github.com/user-attachments/assets/08308966-ddff-44e9-ac24-7590c843fed7" />
 
-## Discord
-Присоединяйтесь к официальному Discord-серверу Fortnite Mac: https://discord.gg/nfEBGJBfHD
 
-## Поддержка разработчика
-Если программа оказалась полезной, рассмотрите возможность использования кода поддержки создателя в Fortnite!
-
-`Isacucho`
-
-Вы также можете поддержать разработчика через Buy Me A Coffee!
-<br/><br/>
-<a href="https://www.buymeacoffee.com/Isacucho" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ## Системные требования:
 - Установленный [Sideloadly](https://sideloadly.io) на вашем Mac
@@ -200,7 +190,7 @@ Standalone tweak можно скачать или собрать самосто�
 
 ## Запуск программы
 
-### Через Python (рекомендуется для разработки):
+### Через Python (самостоятельная установка):
 
 ```bash
 # Установите зависимости
@@ -210,11 +200,15 @@ brew install python python-tk
 git clone https://github.com/IKostarev/FortniteMac.git
 cd FortniteMac
 
-# Запустите программу
-./run.sh
+# Создайте виртуальное окружение
+python3 -m venv .venv
+source .venv/bin/activate
 
-# Или в режиме разработки с автоперезагрузкой
-./run.sh --watch
+# Установите зависимости
+pip install -r src/requirements.txt
+
+# Запустите программу
+python FnMacAssistant.py
 ```
 
 ### Через собранное приложение:
